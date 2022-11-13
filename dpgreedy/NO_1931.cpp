@@ -26,7 +26,7 @@ int main(){
 
         if(time <= schedule[i].second){
             ++count;
-            time = schedule[0].first;
+            time = schedule[i].first;
         }
        
     }
